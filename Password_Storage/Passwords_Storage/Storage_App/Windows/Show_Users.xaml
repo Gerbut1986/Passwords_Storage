@@ -1,0 +1,13 @@
+﻿<Window x:Class="Storage_App.Show_Users"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Storage_App"
+        mc:Ignorable="d"
+        Title="Show_Users" Height="460.714" Width="706.786" WindowStartupLocation="CenterScreen">
+    <Grid Margin="-1,0,1,0" Background="#FFB6F36C">
+        <ListBox x:Name="list" HorizontalAlignment="Left" x:FieldModifier="public"  Height="364" Margin="2,4,0,0" VerticalAlignment="Top" Width="698" FontSize="18" Background="#FFE6E6B4" Foreground="#FF10076C"/>
+        <Button Content="Edit Selected User" x:Name="editBtn"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="186" Height="40" FontSize="20" FontFamily="Palatino Linotype" Margin="257,380,0,0" Click="editBtn_Click" FontWeight="Bold" Background="#FFF7F74D" Foreground="#FFA22923"/>
+    </Grid>
+</Window>

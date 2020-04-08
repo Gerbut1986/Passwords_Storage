@@ -1,0 +1,31 @@
+﻿<Window x:Class="Storage_App.Register_Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Storage_App"
+        mc:Ignorable="d"
+        Title="Register_Window" Height="504.904" Width="575.508" WindowStartupLocation="CenterScreen" Background="#FF450F47" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="136"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="13"/>
+        </Grid.ColumnDefinitions>
+        <TextBox HorizontalAlignment="Left" x:Name="fnameTxt" Height="40" Margin="2,57,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="402" FontSize="24" Grid.Column="1"/>
+        <Button Content="Register new user" x:Name="okBtn"  HorizontalAlignment="Left" Margin="54,410,0,0" VerticalAlignment="Top" Width="186" Height="40" FontSize="20" FontFamily="Palatino Linotype" Grid.Column="1" Click="okBtn_Click" Foreground="#FFF3D82A" Background="#FF1B1818"/>
+        <TextBox HorizontalAlignment="Left" x:Name="lnameTxt" Height="40" Margin="2,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="401" FontSize="24" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" x:Name="loginTxt" Height="40" Margin="2,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="402" FontSize="24" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" x:Name="passTxt" Height="40" Margin="2,224,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="402" FontSize="24" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" x:Name="roleTxt" Height="40" Margin="2,281,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="401" FontSize="24" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" x:Name="ageTxt" Height="40" Margin="2,336,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="402" FontSize="24" Grid.Column="1"/>
+        <Label Content="First name:" HorizontalAlignment="Left" Margin="26,62,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="86" Foreground="#FFFDE75F"/>
+        <Label Content="Last name:" HorizontalAlignment="Left" Margin="29,122,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="84" Foreground="#FFFDE75F"/>
+        <Label Content="Login:" HorizontalAlignment="Left" Margin="54,177,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="53" Foreground="#FFFDE75F"/>
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="26,229,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="80" Foreground="#FFFDE75F"/>
+        <Label Content="Role:" HorizontalAlignment="Left" Margin="61,286,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="53" Foreground="#FFFDE75F"/>
+        <Label Content="Age:" HorizontalAlignment="Left" Margin="63,339,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="52" Foreground="#FFFDE75F"/>
+        <Label Content="Add one new User:" HorizontalAlignment="Left" Margin="54,10,0,0" VerticalAlignment="Top" FontSize="22" Height="38" Width="214" Grid.Column="1" Foreground="#FFFDF9F9"/>
+
+    </Grid>
+</Window>

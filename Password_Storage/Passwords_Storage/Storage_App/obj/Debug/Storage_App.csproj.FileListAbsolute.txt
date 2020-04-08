@@ -1,0 +1,93 @@
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.csprojAssemblyReference.cache
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\MainWindow.g.cs
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\App.g.cs
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App_MarkupCompile.cache
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App_MarkupCompile.lref
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\Storage_App.exe.config
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\Storage_App.exe
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\Storage_App.pdb
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\MainWindow.baml
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.g.resources
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.Properties.Resources.resources
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.csproj.GenerateResource.cache
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.exe
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.pdb
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\EntityFramework.dll
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\EntityFramework.SqlServer.dll
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\EntityFramework.xml
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\EntityFramework.SqlServer.xml
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.csproj.CopyComplete
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Edit_User.g.cs
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Main_Area.g.cs
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Register_Window.g.cs
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Show_Infos.g.cs
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Show_Users.g.cs
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Edit_User.baml
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Main_Area.baml
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Register_Window.baml
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Show_Infos.baml
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Show_Users.baml
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Edit_Datas.g.cs
+H:\MY_GIT_REPO\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Edit_Datas.baml
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\Storage_App.exe.config
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\Storage_App.exe
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\Storage_App.pdb
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\EntityFramework.dll
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\EntityFramework.SqlServer.dll
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\EntityFramework.xml
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\EntityFramework.SqlServer.xml
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.csprojAssemblyReference.cache
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\MainWindow.g.cs
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Edit_Datas.g.cs
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Edit_User.g.cs
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Main_Area.g.cs
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Register_Window.g.cs
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Show_Infos.g.cs
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Show_Users.g.cs
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\App.g.cs
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App_MarkupCompile.cache
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App_MarkupCompile.lref
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\MainWindow.baml
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Edit_Datas.baml
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Edit_User.baml
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Main_Area.baml
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Register_Window.baml
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Show_Infos.baml
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Show_Users.baml
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.g.resources
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.Properties.Resources.resources
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.csproj.GenerateResource.cache
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.csproj.CopyComplete
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.exe
+D:\Software Development\C# All Persons\Дмитрий (Daniel, Canada)\Password_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.pdb
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\Storage_App.exe.config
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\Storage_App.exe
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\Storage_App.pdb
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\EntityFramework.dll
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\EntityFramework.SqlServer.dll
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\EntityFramework.xml
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\bin\Debug\EntityFramework.SqlServer.xml
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.csprojAssemblyReference.cache
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\MainWindow.g.cs
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Edit_Datas.g.cs
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Edit_User.g.cs
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Main_Area.g.cs
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Register_Window.g.cs
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Show_Infos.g.cs
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Show_Users.g.cs
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\App.g.cs
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App_MarkupCompile.cache
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App_MarkupCompile.lref
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\MainWindow.baml
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Edit_Datas.baml
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Edit_User.baml
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Main_Area.baml
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Register_Window.baml
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Show_Infos.baml
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Windows\Show_Users.baml
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.g.resources
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.Properties.Resources.resources
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.csproj.GenerateResource.cache
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.csproj.CopyComplete
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.exe
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password_Storage\Passwords_Storage\Storage_App\obj\Debug\Storage_App.pdb
