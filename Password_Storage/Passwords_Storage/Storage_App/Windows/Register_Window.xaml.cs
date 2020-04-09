@@ -58,6 +58,7 @@
 
                     MessageBox.Show($"User - {fnameTxt.Text} was added successfully!", "Congratulate!",
                         MessageBoxButton.OK, MessageBoxImage.Asterisk);
+
                     // After correct adding clear all text fields:
                     fnameTxt.Text = lnameTxt.Text = loginTxt.Text = 
                     passTxt.Text = roleTxt.Text = ageTxt.Text = "";

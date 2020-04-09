@@ -10,9 +10,9 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="136"/>
             <ColumnDefinition/>
-            <ColumnDefinition Width="13"/>
+            <ColumnDefinition Width="28"/>
         </Grid.ColumnDefinitions>
-        <TextBox HorizontalAlignment="Left" x:Name="fnameTxt" Height="40" Margin="2,57,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="402" FontSize="24" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" x:Name="fnameTxt" Height="40" Margin="2,57,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="401" FontSize="24" Grid.Column="1"/>
         <Button Content="Register new user" x:Name="okBtn"  HorizontalAlignment="Left" Margin="54,410,0,0" VerticalAlignment="Top" Width="186" Height="40" FontSize="20" FontFamily="Palatino Linotype" Grid.Column="1" Click="okBtn_Click" Foreground="#FFF3D82A" Background="#FF1B1818"/>
         <TextBox HorizontalAlignment="Left" x:Name="lnameTxt" Height="40" Margin="2,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="401" FontSize="24" Grid.Column="1"/>
         <TextBox HorizontalAlignment="Left" x:Name="loginTxt" Height="40" Margin="2,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="402" FontSize="24" Grid.Column="1"/>
@@ -26,6 +26,5 @@
         <Label Content="Role:" HorizontalAlignment="Left" Margin="61,286,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="53" Foreground="#FFFDE75F"/>
         <Label Content="Age:" HorizontalAlignment="Left" Margin="63,339,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="52" Foreground="#FFFDE75F"/>
         <Label Content="Add one new User:" HorizontalAlignment="Left" Margin="54,10,0,0" VerticalAlignment="Top" FontSize="22" Height="38" Width="214" Grid.Column="1" Foreground="#FFFDF9F9"/>
-
     </Grid>
 </Window>

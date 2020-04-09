@@ -71,7 +71,7 @@
 
         private void usersBtn_Click(object sender, RoutedEventArgs e)
         {
-            if (ReadFromDatabase.Read_All_Infos(uniq_numb).Count == 0)
+            if (ReadFromDatabase.Read_All_Users().Count == 0)
                 MessageBox.Show("The table 'Users' is Empty...\nFirst try to filling it!", "Empty table",
                      MessageBoxButton.OK, MessageBoxImage.Warning);
             else new Show_Users().Show();
