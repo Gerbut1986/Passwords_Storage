@@ -71,6 +71,8 @@
                     // After correct adding clear all text fields:
                     fnameTxt.Text = lnameTxt.Text = loginTxt.Text = 
                     passTxt.Text = roleTxt.Text = ageTxt.Text = "";
+
+                    this.Close(); // After that close this window
                 }
                 catch(Exception ex) 
                 {

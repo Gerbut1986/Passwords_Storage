@@ -19,57 +19,28 @@
 
             try
             {
-                if (uniq_numb != 1)
+                using (conn = new SqlConnection(
+                    ConfigurationManager.ConnectionStrings["Storage_App.Properties.Settings.Storage_DBConnectionString"].ConnectionString))
                 {
-                    using (conn = new SqlConnection(ConfigurationManager.ConnectionStrings["My_Context"].ConnectionString))
+                    using (cmd = new SqlCommand($"SELECT * from Work_Area_{uniq_numb}", conn))
                     {
-                        using (cmd = new SqlCommand($"SELECT * from Work_Area_{uniq_numb}", conn))
+                        conn.Open();
+                        dReader = cmd.ExecuteReader();
+
+                        while (dReader.Read())
                         {
-                            conn.Open();
-                            dReader = cmd.ExecuteReader();
+                            Work_Area area = new Work_Area();
+                            area.Id = Convert.ToInt32(dReader["Id"]);
+                            area.Site_Name = dReader["Site_Name"].ToString();
+                            area.Email = dReader["Email"].ToString();
+                            area.Login = dReader["Login"].ToString();
+                            area.Password = dReader["Password"].ToString();
+                            area.URL = dReader["URL"].ToString();
+                            area.Phone = dReader["Phone"].ToString();
+                            area.Comments = dReader["Comments"].ToString();
+                            area.DateCreated = Convert.ToDateTime(dReader["DateCreated"].ToString());
 
-                            while (dReader.Read())
-                            {
-                                Work_Area area = new Work_Area();
-                                area.Id = Convert.ToInt32(dReader["Id"]);
-                                area.Site_Name = dReader["Site_Name"].ToString();
-                                area.Email = dReader["Email"].ToString();
-                                area.Login = dReader["Login"].ToString();
-                                area.Password = dReader["Password"].ToString();
-                                area.URL = dReader["URL"].ToString();
-                                area.Phone = dReader["Phone"].ToString();
-                                area.Comments = dReader["Comments"].ToString();
-                                area.DateCreated = Convert.ToDateTime(dReader["DateCreated"].ToString());
-
-                                list.Add(area);
-                            }
-                        }
-                    }
-                }
-                else
-                {
-                    using (conn = new SqlConnection(ConfigurationManager.ConnectionStrings["My_Context"].ConnectionString))
-                    {
-                        using (cmd = new SqlCommand($"SELECT * from Work_Area", conn))
-                        {
-                            conn.Open();
-                            dReader = cmd.ExecuteReader();
-
-                            while (dReader.Read())
-                            {
-                                Work_Area area = new Work_Area();
-                                area.Id = Convert.ToInt32(dReader["Id"]);
-                                area.Site_Name = dReader["Site_Name"].ToString();
-                                area.Email = dReader["Email"].ToString();
-                                area.Login = dReader["Login"].ToString();
-                                area.Password = dReader["Password"].ToString();
-                                area.URL = dReader["URL"].ToString();
-                                area.Phone = dReader["Phone"].ToString();
-                                area.Comments = dReader["Comments"].ToString();
-                                area.DateCreated = Convert.ToDateTime(dReader["DateCreated"].ToString());
-
-                                list.Add(area);
-                            }
+                            list.Add(area);
                         }
                     }
                 }
@@ -138,4 +109,4 @@
             return list;
         }
     }
-    }
+}
