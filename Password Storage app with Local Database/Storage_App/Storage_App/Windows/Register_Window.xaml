@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Storage_App"
         mc:Ignorable="d"
-        Title="Register_Window" Height="504.904" Width="575.508" WindowStartupLocation="CenterScreen" Background="#FF450F47" >
+        Title="Register_Window" ResizeMode="NoResize" Height="504.904" Width="575.508" WindowStartupLocation="CenterScreen" Background="#FF450F47" Icon="Oxygen-Icons.org-Oxygen-Actions-user-group-new.ico" >
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="136"/>

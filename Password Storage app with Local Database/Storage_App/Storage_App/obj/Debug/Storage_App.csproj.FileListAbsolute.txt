@@ -41,7 +41,6 @@ D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password Storage app with Loca
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password Storage app with Local Database\Storage_App\Storage_App\bin\Debug\EntityFramework.SqlServer.dll
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password Storage app with Local Database\Storage_App\Storage_App\bin\Debug\EntityFramework.xml
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password Storage app with Local Database\Storage_App\Storage_App\bin\Debug\EntityFramework.SqlServer.xml
-D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password Storage app with Local Database\Storage_App\Storage_App\obj\Debug\Storage_App.csprojAssemblyReference.cache
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password Storage app with Local Database\Storage_App\Storage_App\obj\Debug\MainWindow.g.cs
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password Storage app with Local Database\Storage_App\Storage_App\obj\Debug\Windows\Edit_Datas.g.cs
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password Storage app with Local Database\Storage_App\Storage_App\obj\Debug\Windows\Edit_User.g.cs

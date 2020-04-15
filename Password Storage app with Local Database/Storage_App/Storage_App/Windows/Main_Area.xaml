@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Storage_App"
         mc:Ignorable="d"
-        Title="Main_Area" Height="614.84" Width="800" WindowStartupLocation="CenterScreen" Background="#FFF77272">
+        Title="Main_Area" ResizeMode="NoResize" Height="614.84" Width="800" WindowStartupLocation="CenterScreen" Background="#FFF77272" Icon="mainArea.ico">
     <Grid>
         <TextBox HorizontalAlignment="Left" x:Name="nameTxt" Height="40" Margin="243,109,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="423" FontSize="24"/>
         <TextBox HorizontalAlignment="Left" x:Name="emailTxt" Height="40" Margin="243,164,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="423" FontSize="24"/>

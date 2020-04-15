@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Storage_App.Windows"
         mc:Ignorable="d"
-        Title="Edit_Datas" Height="615.493" Width="604.4" WindowStartupLocation="CenterScreen" Background="#FF5CFDE0">
+        Title="Edit_Datas" ResizeMode="NoResize" Height="615.493" Width="604.4" WindowStartupLocation="CenterScreen" Background="#FF5CFDE0" Icon="register.ico">
     <Grid>
         <TextBox HorizontalAlignment="Left" x:Name="nameTxt" Height="40" Margin="152,82,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="402" FontSize="24"/>
         <TextBox HorizontalAlignment="Left" x:Name="emailTxt" Height="40" Margin="152,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="401" FontSize="24"/>

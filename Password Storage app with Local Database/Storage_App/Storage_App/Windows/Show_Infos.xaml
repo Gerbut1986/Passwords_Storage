@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Storage_App"
         mc:Ignorable="d"
-        Title="Show_Infos" Height="461.21" Width="800" WindowStartupLocation="CenterScreen" Background="#FFEC9A25">
+        Title="Show_Infos" ResizeMode="NoResize" Height="461.21" Width="800" WindowStartupLocation="CenterScreen" Background="#FFEC9A25" Icon="showArea.ico">
     <Grid>
         <ListBox x:FieldModifier="public" x:Name="list" HorizontalAlignment="Left"  Height="364"  ItemsSource="{Binding List}" Margin="2,4,0,0" VerticalAlignment="Top" Width="788" FontSize="18" Background="#FFECF357"/>
         <Button Content="Edit Selected Info" x:Name="editBtn"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="186" Height="40" FontSize="20" FontFamily="Palatino Linotype" Margin="291,374,0,0" Click="editBtn_Click" Background="#FF191916" Foreground="#FFF5E6E6"/>

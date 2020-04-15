@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Storage_App.Windows"
         mc:Ignorable="d"
-        Title="Edit_User" Height="526.339" Width="446.429" WindowStartupLocation="CenterScreen" Background="#FF99F74B">
+        Title="Edit_User" ResizeMode="NoResize" Height="526.339" Width="446.429" WindowStartupLocation="CenterScreen" Background="#FF99F74B" Icon="register.ico">
     <Grid>
         <Label Content="First Name:" HorizontalAlignment="Left" Margin="18,51,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="107" FontWeight="Bold"/>
         <Label Content="Last Name:" HorizontalAlignment="Left" Margin="18,120,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="102" FontWeight="Bold"/>
@@ -28,7 +28,7 @@
         <Label Content="Age:" HorizontalAlignment="Left" Margin="76,358,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="44" FontWeight="Bold"/>
         <TextBox HorizontalAlignment="Left" x:Name="roleTxt" Height="40" Margin="131,290,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="279" FontSize="24"/>
         <TextBox x:Name="ageTxt" HorizontalAlignment="Left" Height="40" Margin="131,353,0,0"  VerticalAlignment="Top" Width="277" FontSize="24"/>
-        <Button Content="Save" x:Name="saveBtn"  HorizontalAlignment="Left" Margin="133,422,0,0" VerticalAlignment="Top" Width="133" Height="51" FontSize="36" FontFamily="Palatino Linotype" FontWeight="Bold" Click="saveBtn_Click" Background="#FF0F1F02" Foreground="#FFFBF297"/>
+        <Button Content="Save" x:Name="saveBtn"  HorizontalAlignment="Left" Margin="155,422,0,0" VerticalAlignment="Top" Width="133" Height="51" FontSize="36" FontFamily="Palatino Linotype" FontWeight="Bold" Click="saveBtn_Click" Background="#FF0F1F02" Foreground="#FFFBF297"/>
 
     </Grid>
 </Window>

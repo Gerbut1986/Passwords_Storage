@@ -5,26 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Storage_App"
         mc:Ignorable="d"
-        Title="Log In Form" Height="275.219" Width="359.153" WindowStartupLocation="CenterScreen" FontWeight="Bold" FontSize="14" Foreground="#FF061D6A" Background="#FFE2F56A">
-    <Grid Margin="0,0,-0.2,-0.6">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="102*"/>
-            <ColumnDefinition Width="128*"/>
-            <ColumnDefinition Width="110*"/>
-            <ColumnDefinition Width="11*"/>
-        </Grid.ColumnDefinitions>
+        Title="Log In Form" ResizeMode="NoResize" Height="275.219" Width="359.153"  WindowStartupLocation="CenterScreen" FontWeight="Bold" FontSize="14" Foreground="#FF061D6A" Background="#FFE2F56A" Icon="mainWin.ico">
+    <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="31*"/>
-            <RowDefinition Height="108*"/>
-            <RowDefinition Height="82*"/>
+            <RowDefinition Height="44*"/>
+            <RowDefinition Height="83*"/>
+            <RowDefinition Height="117"/>
         </Grid.RowDefinitions>
-        <Label Content="Login:" HorizontalAlignment="Left" Margin="40,0,0,0" VerticalAlignment="Top" FontSize="16" Grid.Row="1" Height="32" Width="57" FontWeight="Bold"/>
-        <Label Content="Password:" HorizontalAlignment="Left" Margin="10,47,0,41" FontSize="16" Grid.Row="1" Width="87" FontWeight="Bold"/>
-        <TextBox  HorizontalAlignment="Left" Name="loginTxt" Height="40" Margin="0,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" FontSize="24" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <PasswordBox x:Name="passTxt" HorizontalAlignment="Left" Height="40" Margin="0,46,0,0"  VerticalAlignment="Top" Width="222" FontSize="24" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Button Content="Log in" Name="okBtn"  HorizontalAlignment="Left" Margin="0,3,0,0" VerticalAlignment="Top" Width="120" Height="40" FontSize="20" Grid.Row="2" FontFamily="Palatino Linotype" Click="okBtn_Click" Grid.Column="1" Background="#FF72F7EB"/>
-        <Button Content="Register" x:Name="regBtn"  HorizontalAlignment="Left" Margin="0,55,-1,0" VerticalAlignment="Top" Width="352" Height="30" FontSize="18" Grid.Row="2" FontFamily="Palatino Linotype" RenderTransformOrigin="0.48,0.58" Click="regBtn_Click" Grid.ColumnSpan="4" Background="#FFAAF7AA"/>
-        <CheckBox x:Name="rememberCheck" Content="Remember Me?" Grid.Column="1" HorizontalAlignment="Left" Height="18" Margin="93,91,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="#FF03074C" FontSize="16" FontFamily="Times New Roman" FontWeight="Bold" Width="129" Grid.ColumnSpan="2"/>
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="115*"/>
+            <ColumnDefinition Width="231*"/>
+            <ColumnDefinition Width="5"/>
+
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Login:" HorizontalAlignment="Left" Margin="40,3,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="57" FontWeight="Bold" Grid.Row="1" />
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="11,44,0,75" FontSize="16"  Width="87" FontWeight="Bold" Grid.RowSpan="2" Grid.Row="1" />
+        <TextBox  HorizontalAlignment="Left" Name="loginTxt" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" FontSize="24" Grid.Column="1" Grid.Row="1" />
+        <PasswordBox x:Name="passTxt" HorizontalAlignment="Left" Height="40" Margin="0,44,0,0"  VerticalAlignment="Top" Width="222" FontSize="24" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" />
+        <Button Content="Log in" Name="okBtn"  HorizontalAlignment="Left" Margin="0,37,0,0" VerticalAlignment="Top" Width="120" Height="40" FontSize="20"  FontFamily="Palatino Linotype" Click="okBtn_Click"  Background="#FF72F7EB" Grid.Row="2" Grid.Column="1"/>
+        <Button Content="Register" x:Name="regBtn"  HorizontalAlignment="Left" Margin="0,85,0,0" VerticalAlignment="Top" Width="351" Height="30" FontSize="18" FontFamily="Palatino Linotype" RenderTransformOrigin="0.48,0.58" Click="regBtn_Click" Background="#FFAAF7AA" Grid.Row="2" Grid.ColumnSpan="3"/>
+        <CheckBox x:Name="rememberCheck" Content="Remember Me?"  HorizontalAlignment="Left" Height="20" Margin="87,12,0,0"  VerticalAlignment="Top" Foreground="#FF03074C" FontSize="16" FontFamily="Times New Roman" FontWeight="Bold" Width="129" Grid.Row="2" Grid.Column="1" />
 
     </Grid>
 </Window>
