@@ -30,14 +30,14 @@
                         while (dReader.Read())
                         {
                             Work_Area area = new Work_Area();
+                            area.URL = dReader["URL"].ToString();
                             area.Id = Convert.ToInt32(dReader["Id"]);
-                            area.Site_Name = dReader["Site_Name"].ToString();
                             area.Email = dReader["Email"].ToString();
                             area.Login = dReader["Login"].ToString();
-                            area.Password = dReader["Password"].ToString();
-                            area.URL = dReader["URL"].ToString();
                             area.Phone = dReader["Phone"].ToString();
                             area.Comments = dReader["Comments"].ToString();
+                            area.Password = dReader["Password"].ToString();
+                            area.Site_Name = dReader["Site_Name"].ToString();
                             area.DateCreated = Convert.ToDateTime(dReader["DateCreated"].ToString());
 
                             list.Add(area);

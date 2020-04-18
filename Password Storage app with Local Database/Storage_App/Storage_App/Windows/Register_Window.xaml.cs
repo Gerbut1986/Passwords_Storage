@@ -7,6 +7,7 @@
     public partial class Register_Window : Window
     {
         My_Context db;
+
         public Register_Window()
         {
             InitializeComponent();
@@ -53,7 +54,7 @@
                     db.Users.Add(user);
                     db.SaveChanges();
 
-                    // After that has creating a new Table Work_Area_1, 2, 3, 4 ... etc:
+                    // After that has creating a new Table(dinamicly) Work_Area_1, 2, 3, 4 ... etc:
                     db.Database.ExecuteSqlCommand($"CREATE TABLE [dbo].[Work_Area_{uniq_numb}](" +
                         $"[Id][int] IDENTITY(1, 1) NOT NULL, " +
                         $"[Site_Name][nvarchar](150) NULL, " +

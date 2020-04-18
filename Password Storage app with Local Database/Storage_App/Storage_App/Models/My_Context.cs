@@ -4,7 +4,7 @@ namespace Storage_App.Models
 
     public partial class My_Context : DbContext
     {
-        public My_Context() : base("name=My_Context") { }
+        public My_Context() : base("Storage_App.Properties.Settings.Storage_DBConnectionString") { }
 
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Work_Area> Works_Datas { get; set; }
