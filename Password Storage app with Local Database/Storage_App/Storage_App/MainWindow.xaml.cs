@@ -6,7 +6,7 @@
 
     public partial class MainWindow : Window
     {
-        My_Context db;
+        My_Context db = null;
 
         public MainWindow()
         {
@@ -24,11 +24,11 @@
             string mode = string.Empty;
 
             if (loginTxt.Text == "" && passTxt.Password == "")
-                MessageBox.Show("All fields is Empty.. Try fill it, and once again!", "All fields was Empty",
-                    MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("All fields is Empty.. Try fill it, and once again!",
+                "All fields was Empty", MessageBoxButton.OK, MessageBoxImage.Warning);
             else if (loginTxt.Text == "" || passTxt.Password == "")
-                MessageBox.Show("Some of field is Empty.. Try fill it, and once again!", "Some of the field was Empty", 
-                    MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Some of field is Empty.. Try fill it, and once again!",
+                "Some of the field was Empty", MessageBoxButton.OK, MessageBoxImage.Warning);
             else
             {
                 for (int i = 0; i < users.Count; i++)

@@ -1,0 +1,21 @@
+﻿
+
+
+
+
+CREATE TABLE [dbo].[Users] (
+    [Id]              INT           IDENTITY (1, 1) NOT NULL,
+    [Last_Name]       NVARCHAR (50) NULL,
+    [First_Name]      NVARCHAR (50) NULL,
+    [Age]             INT           NULL,
+    [Login]           NVARCHAR (50) NULL,
+    [Password]        NVARCHAR (50) NULL,
+    [Email]           NVARCHAR (50) NULL,
+    [Phone]           NVARCHAR (50) NULL,
+    [Indx_Last_Enter] INT           NULL,
+    [Role]            NVARCHAR (50) NULL,
+    [Id_WorkArea]     INT           NULL,
+    [Date_Registr]    DATETIME      NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+

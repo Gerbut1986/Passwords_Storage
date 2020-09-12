@@ -66,3 +66,4 @@ D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password Storage app with Loca
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password Storage app with Local Database\Storage_App\Storage_App\obj\Debug\Storage_App.exe
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password Storage app with Local Database\Storage_App\Storage_App\obj\Debug\Storage_App.pdb
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password Storage app with Local Database\Storage_App\Storage_App\obj\Debug\Storage_App.csprojAssemblyReference.cache
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\Password Storage app with Local Database\Storage_App\Storage_App\obj\Debug\Storage_App.csproj.CoreCompileInputs.cache
