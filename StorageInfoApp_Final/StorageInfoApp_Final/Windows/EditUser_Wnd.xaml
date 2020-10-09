@@ -78,7 +78,7 @@
                     HorizontalContentAlignment="Left"
                     Opacity="0.5" 
                     Height="25"
-                    Margin="63,0,0,0" GotFocus="fName_txt_GotFocus" LostFocus="fName_txt_LostFocus" TextChanged="fName_txt_TextChanged"
+                    Margin="63,0,0,0" TextChanged="fName_txt_TextChanged"
                      />
 
                     <iconPacks:PackIconMaterial 
@@ -109,7 +109,7 @@
                     HorizontalContentAlignment="Left"
                     Opacity="0.5" 
                     Height="25"
-                    Margin="63,0,0,0" GotFocus="lName_txt_GotFocus" LostFocus="lName_txt_LostFocus" TextChanged="lName_txt_TextChanged"/>
+                    Margin="63,0,0,0" TextChanged="lName_txt_TextChanged"/>
 
                     <iconPacks:PackIconMaterial 
                     Kind="Account" 
@@ -139,7 +139,7 @@
                     HorizontalContentAlignment="Left"
                     Opacity="0.5" 
                     Height="25"
-                    Margin="63,0,0,0" GotFocus="age_txt_GotFocus" LostFocus="age_txt_LostFocus" TextChanged="age_txt_TextChanged" />
+                    Margin="63,0,0,0" TextChanged="age_txt_TextChanged" />
 
                     <iconPacks:PackIconMaterial 
                     Kind="Account" 
@@ -169,7 +169,7 @@
                     HorizontalContentAlignment="Left"
                     Opacity="0.5" 
                     Height="25"
-                    Margin="63,0,0,0" GotFocus="login_txt_GotFocus" LostFocus="login_txt_LostFocus" TextChanged="login_txt_TextChanged"
+                    Margin="63,0,0,0" TextChanged="login_txt_TextChanged"
                      />
 
                     <iconPacks:PackIconMaterial 
@@ -200,7 +200,7 @@
                     HorizontalContentAlignment="Left"
                     Opacity="0.5" 
                     Height="25"
-                    Margin="63,0,0,0" GotFocus="pass_txt_GotFocus" LostFocus="pass_txt_LostFocus" TextChanged="pass_txt_TextChanged"
+                    Margin="63,0,0,0" TextChanged="pass_txt_TextChanged"
                      />
 
                     <iconPacks:PackIconMaterial 
@@ -231,7 +231,7 @@
                     HorizontalContentAlignment="Left"
                     Opacity="0.5" 
                     Height="25"
-                    Margin="63,0,0,0" GotFocus="phone_txt_GotFocus" LostFocus="phone_txt_LostFocus" TextChanged="phone_txt_TextChanged"
+                    Margin="63,0,0,0" TextChanged="phone_txt_TextChanged"
                      />
 
                     <iconPacks:PackIconMaterial 
@@ -262,7 +262,7 @@
                     HorizontalContentAlignment="Left"
                     Opacity="0.5" 
                     Height="25"
-                    Margin="63,0,0,0" GotFocus="email_txt_GotFocus" LostFocus="email_txt_LostFocus" TextChanged="email_txt_TextChanged"
+                    Margin="63,0,0,0" TextChanged="email_txt_TextChanged"
                      />
 
                     <iconPacks:PackIconMaterial 

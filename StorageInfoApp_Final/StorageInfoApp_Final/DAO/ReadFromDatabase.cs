@@ -99,6 +99,7 @@
                                 area.IsActive = Convert.ToBoolean(dreder["IsActive"]);
                                 area.DateEnter = Convert.ToDateTime(dreder["DateEnter"].ToString());
                                 area.DateLeave = Convert.ToDateTime(dreder["DateLeave"].ToString());
+                                area.AccessToken = Guid.Parse(dreder["AccessToken"].ToString());
 
                                 list.Add(area);
                             }

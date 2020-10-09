@@ -1,5 +1,3 @@
-D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\bin\Release\bin\Debug\Data\Storage_DB.mdf
-D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\bin\Release\bin\Debug\Data\Storage_DB_log.ldf
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\bin\Release\Data\Storage_DB.mdf
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\bin\Release\Data\Storage_DB_log.ldf
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\bin\Release\StorageInfoApp_Final.exe.config
@@ -102,3 +100,8 @@ D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageIn
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\obj\Release\StorageInfoApp_Final.csproj.CopyComplete
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\obj\Release\StorageInfoApp_Final.exe
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\obj\Release\StorageInfoApp_Final.pdb
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\obj\Release\StorageInfoApp_Final.csprojAssemblyReference.cache
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\bin\Release\bin\Debug\Data\Storage_DB.mdf
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\bin\Release\bin\Debug\Data\Storage_DB_log.ldf
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\obj\Release\Windows\UserSession_Wnd.g.cs
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\obj\Release\Windows\UserSession_Wnd.baml

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Height="609.409" Width="380" Background="Transparent"
         AllowsTransparency="True" 
-        WindowStartupLocation="CenterScreen" WindowStyle="None" MouseDown="Window_MouseDown">
+        WindowStartupLocation="CenterScreen" WindowStyle="None" MouseDown="Window_MouseDown" MouseMove="Window_MouseMove">
 
     <Grid>
         <Grid>
@@ -33,7 +33,8 @@
 
             <!-- Begin Text: -->
             <StackPanel VerticalAlignment="Bottom" Height="85" Margin="0,0,0,2">
-                <TextBlock Text="Add New one Info" 
+                <TextBlock x:Name="text1_txt"
+                           Text="Add New one Info" 
                            FontWeight="Light" 
                            FontFamily="Palatino Linotype" 
                            FontSize="29" 
@@ -47,7 +48,8 @@
                         </LinearGradientBrush>
                     </TextBlock.Foreground>
                 </TextBlock>
-                <TextBlock Text="about your website" 
+                <TextBlock  x:Name="text2_txt"
+                           Text="about your website" 
                            FontWeight="Heavy" 
                            FontFamily="Palatino Linotype" 
                            FontSize="33" 

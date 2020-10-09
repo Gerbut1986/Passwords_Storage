@@ -13,5 +13,9 @@
         public DateTime DateEnter { get; set; }
         public DateTime DateLeave { get; set; }
         public Guid AccessToken { get; set; }
+        public override string ToString() =>
+                 $"Username: {CurLogin}\nCurrent Password: {CurPassword}\nRemember Me(check): {RememberMe}\n" +
+                 $"IsActive: {IsActive}\nId User: {Id_User}\nDate Enter: {DateEnter}\nDate Leave: {DateLeave}\n" +
+                 $"AccessToken: {AccessToken}\n";
     }
 }

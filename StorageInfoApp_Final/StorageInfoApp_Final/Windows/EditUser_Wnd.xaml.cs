@@ -49,65 +49,6 @@
             this.Close();
         }
 
-        // Get & Lost Focus for text fields:
-        // Get:
-        void fName_txt_GotFocus(object sender, RoutedEventArgs e) => fName_txt.Text = ""; 
-
-        void lName_txt_GotFocus(object sender, RoutedEventArgs e) => lName_txt.Text = "";
-
-        void age_txt_GotFocus(object sender, RoutedEventArgs e) => age_txt.Text = "";
-
-        void login_txt_GotFocus(object sender, RoutedEventArgs e) => login_txt.Text = "";
-
-        void pass_txt_GotFocus(object sender, RoutedEventArgs e) => pass_txt.Text = "";
-
-        void phone_txt_GotFocus(object sender, RoutedEventArgs e) => phone_txt.Text = "";
-
-        void email_txt_GotFocus(object sender, RoutedEventArgs e) => email_txt.Text = "";
-
-        // Lost:
-        void fName_txt_LostFocus(object sender, RoutedEventArgs e)
-        {
-            if (fName_txt.Text.Equals(""))
-                fName_txt.Text = "First Name:";
-        }
-
-        void lName_txt_LostFocus(object sender, RoutedEventArgs e)
-        {
-            if (lName_txt.Text.Equals(""))
-                lName_txt.Text = "Last Name:";
-        }
-
-        void age_txt_LostFocus(object sender, RoutedEventArgs e)
-        {
-            if (age_txt.Text.Equals(""))
-                age_txt.Text = "Age:";
-        }
-
-        void login_txt_LostFocus(object sender, RoutedEventArgs e)
-        {
-            if (login_txt.Text.Equals(""))
-                login_txt.Text = "Login:";
-        }
-
-        void pass_txt_LostFocus(object sender, RoutedEventArgs e)
-        {
-            if (pass_txt.Text.Equals(""))
-                pass_txt.Text = "Password:";
-        }
-
-        void email_txt_LostFocus(object sender, RoutedEventArgs e)
-        {
-            if (email_txt.Text.Equals(""))
-                email_txt.Text = "Email:";
-        }
-
-        void phone_txt_LostFocus(object sender, RoutedEventArgs e)
-        {
-            if (phone_txt.Text.Equals(""))
-                phone_txt.Text = "Phone:";
-        }
-
         void fName_txt_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e) { }
 
         void lName_txt_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e) { }

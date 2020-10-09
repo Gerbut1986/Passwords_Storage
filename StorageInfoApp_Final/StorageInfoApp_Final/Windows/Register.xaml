@@ -6,7 +6,7 @@
         xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
         xmlns:local="clr-namespace:StorageInfoApp_Final"
         mc:Ignorable="d"
-        Title="LoginWindow" Height="640.909" Width="380" 
+        Title="LoginWindow" Height="640.909" Width="382" 
         AllowsTransparency="True" Background="Transparent" 
         WindowStartupLocation="CenterScreen" 
         WindowStyle="None" MouseDown="Window_MouseDown">
@@ -32,6 +32,7 @@
             <StackPanel VerticalAlignment="top" Height="119" Margin="0,8,0,0">
                 <Image Source="icon_register.png" Margin="129,0,131,0" Height="115"/>
             </StackPanel>
+            
             <!-- Begin Text: -->
             <StackPanel VerticalAlignment="Bottom" Height="80" Margin="0,0,0,2">
                 <TextBlock Text="Register" 

@@ -4,8 +4,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StorageInfoApp_Final.Windows"
-        mc:Ignorable="d" Background="Transparent" WindowStartupLocation="CenterScreen"
-        Height="513.6" Width="500" WindowStyle="None" AllowsTransparency="True" Loaded="loaded_Loaded" MouseDown="loaded_MouseDown">
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Height="513.6" Width="500" WindowStyle="None" AllowsTransparency="True" Loaded="loaded_Loaded" MouseDown="loaded_MouseDown" Background="{x:Null}" MouseMove="loaded_MouseMove">
     <Grid>
         <Grid>
             <Grid.RowDefinitions>
@@ -18,19 +18,31 @@
                 <Border.Background>
                     <LinearGradientBrush>
                         <GradientStop Color="BlanchedAlmond" Offset="0.0"/>
-                        <GradientStop Color="Olive" Offset="1"/>
+                        <GradientStop Color="#FF595907" Offset="1"/>
+                        <GradientStop Color="#FFFFED78" Offset="0.678"/>
+                        <GradientStop Color="#FF878787"/>
                     </LinearGradientBrush>
                 </Border.Background>
             </Border>
 
             <!-- Logo: -->
             <StackPanel VerticalAlignment="Center" Height="198" Margin="0,-37,0,96">
-                <Image Source="users.png" Height="222" Margin="4,0,9,0"/>
+                <Image Source="users.png" Height="222" Margin="4,0,9,0">
+                    <Image.OpacityMask>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black" Offset="0"/>
+                            <GradientStop Color="#FF630707" Offset="1"/>
+                            <GradientStop Color="#FF200202" Offset="0.635"/>
+                        </LinearGradientBrush>
+                    </Image.OpacityMask>
+                </Image>
             </StackPanel>
 
             <!-- Texts: -->
             <StackPanel Margin="0,140,0,3">
-                <TextBlock Text="Info about All" 
+                <TextBlock 
+                           x:Name="_1st_txt"
+                           Text="Info about All" 
                            FontWeight="Light" 
                            FontFamily="Palatino Linotype" 
                            FontSize="22" 
@@ -38,7 +50,8 @@
                     <TextBlock.Foreground>
                         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                             <GradientStop Color="Gold" Offset="0"/>
-                            <GradientStop Color="#FFF1AFAF" Offset="1"/>
+                            <GradientStop Color="Black" Offset="1"/>
+                            <GradientStop Color="#FF001FE6" Offset="0.074"/>
                         </LinearGradientBrush>
                     </TextBlock.Foreground>
                 </TextBlock>
@@ -50,7 +63,8 @@
                     <TextBlock.Foreground>
                         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                             <GradientStop Color="Gold" Offset="0"/>
-                            <GradientStop Color="#FFCBC164" Offset="1"/>
+                            <GradientStop Color="#FF1700FF" Offset="1"/>
+                            <GradientStop Color="#FF6346AA"/>
                         </LinearGradientBrush>
                     </TextBlock.Foreground>
                 </TextBlock>
@@ -78,23 +92,13 @@
                 </Button>
             </StackPanel>
 
-            <ListBox Grid.Row="1" x:Name="list" FontFamily="Segoe Print" FontWeight="Bold" FontSize="16">
-                <ListBox.Foreground>
-                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="#FF141A49" Offset="0.3"/>
-                        <GradientStop Color="#FF041587" Offset="1"/>
-                        <GradientStop Color="White" Offset="0.03"/>
-                    </LinearGradientBrush>
-                </ListBox.Foreground>
+            <ListBox Grid.Row="1" x:Name="list" FontFamily="Palatino Linotype" FontWeight="Bold" FontSize="18" Margin="8,0,8,8"
+                     Foreground="#FF020202" SelectionChanged="list_SelectionChanged" MouseDoubleClick="list_MouseDoubleClick">
                 <ListBox.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="Black" Offset="0"/>
-                        <GradientStop Color="PaleVioletRed"/>
-                        <GradientStop Color="PaleVioletRed" Offset="0.869"/>
-                        <GradientStop Color= "Olive"/>
+                        
                     </LinearGradientBrush>
                 </ListBox.Background>
-
             </ListBox>
         </Grid>
     </Grid>

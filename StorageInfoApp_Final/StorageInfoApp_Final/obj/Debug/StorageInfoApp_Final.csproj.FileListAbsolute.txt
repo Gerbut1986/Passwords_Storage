@@ -92,8 +92,6 @@ D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageIn
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\obj\Debug\Windows\WorkAreas.baml
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\bin\Debug\Data\Storage_DB.mdf
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\bin\Debug\Data\Storage_DB_log.ldf
-D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\bin\Debug\bin\Debug\Data\Storage_DB.mdf
-D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\bin\Debug\bin\Debug\Data\Storage_DB_log.ldf
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\obj\Debug\Windows\Create.g.cs
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\obj\Debug\Windows\UsersInfo.g.cs
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\obj\Debug\Windows\Create.baml
@@ -102,4 +100,8 @@ D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageIn
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\obj\Debug\Windows\Congratulate_Wnd.baml
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\obj\Debug\Windows\EditUser_Wnd.g.cs
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\obj\Debug\Windows\EditUser_Wnd.baml
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\obj\Debug\Windows\UserSession_Wnd.g.cs
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\bin\Debug\bin\Debug\Data\Storage_DB.mdf
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\bin\Debug\bin\Debug\Data\Storage_DB_log.ldf
+D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\obj\Debug\Windows\UserSession_Wnd.baml
 D:\Repository\GitHub_Gerbut1986\Passwords_Storage\StorageInfoApp_Final\StorageInfoApp_Final\obj\Debug\StorageInfoApp_Final.csprojAssemblyReference.cache

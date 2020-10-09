@@ -18,7 +18,7 @@
         public override string ToString()
         {
             return $"Id: {Id}\nFirst Name: {First_Name}\nLast Name: {Last_Name}\nAge: {Age}\nLogin: {Login}\nPassword: {Password}\n" +
-                   $"Email: {Email}\nPhone: {Phone}\nRole: {Role}\nIndx Last Enter: {Indx_Last_Enter}\nInfo number table: {Id_WorkArea}\n" +
+                   $"Email: {Email}\nPhone: {Phone}\nRole: {Role}\nInfo number table: {Id_WorkArea}\n" +
                    $"Date of created: {Date_Registr}\n\n";
         }
     }

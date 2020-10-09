@@ -22,11 +22,16 @@
             this.num = num;
             add_btn.Content = "Add New";
             this.mode = mode;
+            text1_txt.Text = "Add New one Info";
+            text2_txt.Text = "about your website";
         }
 
         public Create(string mode, WorkArea update_Area, int num) // Edit
         {
             InitializeComponent();
+
+            text1_txt.Text = "Edit selected info";
+            text2_txt.Text = "about your website";
             add_btn.Content = "Update";
             this.update_Area = update_Area;
             this.mode = mode;
@@ -59,7 +64,7 @@
 
             string res = EditLogic.EditInfo(update, num);
 
-            MessageBox.Show(res, "Result Update");
+            new Congratulate_Wnd("Result Update",res).ShowDialog();
 
             (this.Owner as WorkAreas).lbox.Items.RemoveAt(index);
             (this.Owner as WorkAreas).lbox.Items.Insert(index, update);
@@ -98,6 +103,7 @@
                     WorkArea currentInfo = infos.Where(i => i.Id == infos.Count).FirstOrDefault();
                     owner.RefreshList();
                     name_txt.Text = login_txt.Text = pass_txt.Text = email_txt.Text = url_txt.Text = comment_txt.Text = phone_txt.Text = "";
+                    this.Close();
                 }
                 catch { }
             }
@@ -115,69 +121,101 @@
             else if (mode == "Edit") EditArea();
         }
 
-        void name_txt_GotFocus(object sender, RoutedEventArgs e) { name_txt.Text = ""; }
+        void name_txt_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (mode.Equals("Edit")) return;
+            name_txt.Text = "";        
+        }
 
-        void url_txt_GotFocus(object sender, RoutedEventArgs e) => url_txt.Text = "";
+        void url_txt_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (mode.Equals("Edit")) return;
+            url_txt.Text = "";
+        }
 
-        void login_txt_GotFocus(object sender, RoutedEventArgs e) => login_txt.Text = "";
+        void login_txt_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (mode.Equals("Edit")) return;
+            login_txt.Text = "";
+        }
 
-        void pass_txt_GotFocus(object sender, RoutedEventArgs e) => pass_txt.Text = "";
+        void pass_txt_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (mode.Equals("Edit")) return;
+            pass_txt.Text = "";
+        }
 
-        void phone_txt_GotFocus(object sender, RoutedEventArgs e) => phone_txt.Text = "";
+        void phone_txt_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (mode.Equals("Edit")) return;
+            phone_txt.Text = "";
+        }
 
-        void email_txt_GotFocus(object sender, RoutedEventArgs e) => email_txt.Text = "";
+        void email_txt_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (mode.Equals("Edit")) return;
+            email_txt.Text = "";
+        }
 
-        void comment_txt_GotFocus(object sender, RoutedEventArgs e) => comment_txt.Text = "";
+        void comment_txt_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (mode.Equals("Edit")) return;
+            comment_txt.Text = "";
+        }
 
         void name_txt_LostFocus(object sender, RoutedEventArgs e)
         {
-            if (name_txt.Text.Equals(""))
-                name_txt.Text = "Site Name:";
+            if (mode.Equals("Add"))
+                if (name_txt.Text.Equals(""))
+                    name_txt.Text = "Site Name:";
         }
 
         void url_txt_LostFocus(object sender, RoutedEventArgs e)
         {
-            if (url_txt.Text.Equals(""))
-                url_txt.Text = "URL:";
+            if (mode.Equals("Add"))
+                if (url_txt.Text.Equals(""))
+                    url_txt.Text = "URL:";
         }
 
         void login_txt_LostFocus(object sender, RoutedEventArgs e)
         {
-            if (login_txt.Text.Equals(""))
-                login_txt.Text = "Login:";
+            if (mode.Equals("Add"))
+                if (login_txt.Text.Equals(""))
+                    login_txt.Text = "Login:";
         }
 
         void pass_txt_LostFocus(object sender, RoutedEventArgs e)
         {
-            if (pass_txt.Text.Equals(""))
+            if (mode.Equals("Add"))
+                if (pass_txt.Text.Equals(""))
                 pass_txt.Text = "Password:";
         }
 
         void email_txt_LostFocus(object sender, RoutedEventArgs e)
         {
-            if (email_txt.Text.Equals(""))
+            if (mode.Equals("Add"))
+                if (email_txt.Text.Equals(""))
                 email_txt.Text = "Email:";
         }
 
         void phone_txt_LostFocus(object sender, RoutedEventArgs e)
         {
-            if (phone_txt.Text.Equals(""))
+            if (mode.Equals("Add"))
+                if (phone_txt.Text.Equals(""))
                 phone_txt.Text = "Phone:";
         }
 
         void comment_txt_LostFocus(object sender, RoutedEventArgs e)
         {
-            if (comment_txt.Text.Equals(""))
+            if (mode.Equals("Add"))
+                if (comment_txt.Text.Equals(""))
                 comment_txt.Text = "Comment:";
         }
-
-        //void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
-        //{
-        //    return;
-        //}
 
         void close_btn_Click(object sender, RoutedEventArgs e) => this.Close();
 
         void close_btn_MouseDoubleClick(object sender, System.Windows.Input.MouseButtonEventArgs e) => Close();
+
+        void Window_MouseMove(object sender, System.Windows.Input.MouseEventArgs e) { } //=> (this.owner as WorkAreas).time_end = 0;
     }
 }

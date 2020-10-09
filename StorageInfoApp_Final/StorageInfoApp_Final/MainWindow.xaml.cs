@@ -5,6 +5,7 @@
     using System.Windows;
     using System.Windows.Input;
     using System.Windows.Media;
+    using System.Windows.Threading;
     using StorageInfoApp_Final.DAO;
     using System.Collections.Generic;
     using StorageInfoApp_Final.Models;
@@ -12,18 +13,24 @@
 
     public partial class MainWindow : Window
     {
-        MyContext db;
-        UsersSessions session;
-        List<User> users;
-        int currrent_id, num_table, indx_last_user = 0;
-        public bool flag = false;
-        User lastUser = null, currUser;
         Guid token;
-        public string TextLogin { get; set; }
+        MyContext db;
+        List<User> users;
+        UsersSessions session;
+        public bool flag = false;
+        DispatcherTimer text_timer = null;
+        User lastUser = null, currUser;
+        int currrent_id, num_table, indx_last_user = 0, time_shw_txt, txt_cnt = 0;
 
         public MainWindow()
         {
             InitializeComponent();
+
+            text_timer = new DispatcherTimer();  
+            text_timer.Tick += Timer_Tick;
+            text_timer.Interval = new TimeSpan(0, 0, 0, 0, 1000);
+            text_timer.Start();
+            time_shw_txt = 1;
 
             db = new MyContext();
             session = new UsersSessions();
@@ -68,6 +75,13 @@
             else return;
         }
 
+        void Timer_Tick(object sender, EventArgs e)
+        {
+            time_shw_txt++;
+            if (time_shw_txt == 6)  // After 6 sec shown the text
+                about_txt.Content = "Hover over the logo to view the text!";
+        }
+
         void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if (e.LeftButton == MouseButtonState.Pressed)
@@ -76,6 +90,7 @@
 
         void log_btn_Click(object sender, RoutedEventArgs e)
         {
+            CloseSession();
             if (login_txt.Text.Equals("Username:") && passwd_txt.Password.Equals("Password:"))
             {
                 login_txt.Background = Brushes.Red;
@@ -147,9 +162,13 @@
             reg.ShowDialog();
         }
 
-       // void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e) { return; }
-
         void close_btn_Click(object sender, RoutedEventArgs e)
+        {
+            CloseSession();
+            this.Close();
+        }
+
+        void CloseSession()
         {
             if (lastUser != null)
             {
@@ -164,9 +183,7 @@
                 db.SaveChanges();
                 session.DateLeave = DateTime.Now;
                 InsertLogic.AddUserSession(session, num_table);
-                Close();
             }
-            else this.Close();
         }
 
         void login_txt_LostFocus(object sender, RoutedEventArgs e)
@@ -180,6 +197,34 @@
             if (passwd_txt.Password.Equals(""))
                 passwd_txt.Password = "Password:";
         }
+
+        void Image_MouseEnter(object sender, MouseEventArgs e)
+        {
+            int indx = txt_cnt < 3 ? txt_cnt++ : txt_cnt = 0;
+            text_timer.Stop();
+            about_txt.Content = GetHoverText()[txt_cnt == 0 ? txt_cnt++ : indx];
+        }
+
+        void Image_MouseLeave(object sender, MouseEventArgs e) => about_txt.Content = "";
+
+        void reg_btn_MouseEnter(object sender, MouseEventArgs e) => bottom_txt.Content = "Register a new user";
+
+        void reg_btn_MouseLeave(object sender, MouseEventArgs e) => bottom_txt.Content = "";
+
+        void log_btn_MouseEnter(object sender, MouseEventArgs e) => bottom_txt.Content = "Log in if you are registered";
+
+        void log_btn_MouseLeave(object sender, MouseEventArgs e) => bottom_txt.Content = "";
+
+        void remeber_check_MouseEnter(object sender, MouseEventArgs e) => rememb_txt.Content = "Check the box to remember your login on the next time";
+
+        void remeber_check_MouseLeave(object sender, MouseEventArgs e) => rememb_txt.Content = "";
+
+        string[] GetHoverText() => new string[]
+            {
+                "Developed by Andriy Gerbut.",
+                "The app has a local database",
+                "All your data will be protected!"
+            };
 
         void login_txt_GotFocus(object sender, RoutedEventArgs e)
         {
@@ -215,7 +260,7 @@
             }
             catch (Exception ex) { this.Title = ex.Message; }
 
-            if (list == null)
+            if (list == null || list.Count == 0)
             {
                 db.Database.ExecuteSqlCommand(
                  $"CREATE TABLE [dbo].[UserSessions_{num_table}] (" +
@@ -228,6 +273,8 @@
                  $"[AccessToken]    uniqueidentifier NULL," +
                  $"[DateEnter]   datetime NULL," +
                  $"[DateLeave]   datetime NULL)");
+
+                text_timer.Stop();
 
                 session = new UsersSessions();
                 session.CurLogin = login_txt.Text;
@@ -243,6 +290,7 @@
             }
             else
             {
+                text_timer.Stop();
                 session = new UsersSessions();
                 session.CurLogin = login_txt.Text;
                 session.CurPassword = passwd_txt.Password;

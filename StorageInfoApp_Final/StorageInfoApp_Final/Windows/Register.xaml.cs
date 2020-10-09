@@ -34,21 +34,26 @@
                 DragMove();
         }
 
-        void reg_btn_Click(object sender, RoutedEventArgs e) => AddUser();
+        void reg_btn_Click(object sender, RoutedEventArgs e)
+        {
+            if (!int.TryParse(age_txt.Text, out int age))
+            {
+                age_txt.Background = System.Windows.Media.Brushes.Red;
+                return;
+            }
+            else age_txt.Background = System.Windows.Media.Brushes.Transparent; 
+            AddUser();
+        }
 
         void AddUser()
         {
 
             if (fName_txt.Text == null && login_txt.Text == null && pass_txt.Text == null && email_txt.Text == null &&
-               phone_txt.Text == null && fName_txt.Text == null && role_txt.Text == null && age_txt.Text == null)
-            {
+               phone_txt.Text == null && fName_txt.Text == null && age_txt.Text == null)
                 MessageBox.Show("All fields is empty", "empty", MessageBoxButton.OK, MessageBoxImage.Warning);
-            }
             else if (fName_txt.Text == null || login_txt.Text == null || pass_txt.Text == null || email_txt.Text == null ||
-               phone_txt.Text == null || fName_txt.Text == null || role_txt.Text == null || age_txt.Text == null)
-            {
+               phone_txt.Text == null || fName_txt.Text == null || age_txt.Text == null)
                 MessageBox.Show("Some of field are empty", "empty", MessageBoxButton.OK, MessageBoxImage.Warning);
-            }
             else
             {
                 User add_wa = null;
@@ -56,6 +61,7 @@
                 {
                     using (MyContext db = new MyContext())
                     {
+                        bool exists = false;
                         List<User> users = ReadFromDatabase.ShowAllUsers().ToList();
                         int num_table = users.Count + 1;
 
@@ -73,10 +79,30 @@
                             add_wa.Indx_Last_Enter = num_table;
                             add_wa.Age = Convert.ToInt32(age_txt.Text);
                             add_wa.Date_Registr = DateTime.Now;
+                            if (users.Count > 0)
+                            {
+                                for (int i = 0; i < users.Count; i++)
+                                {
+                                    if (users[i].Login == login_txt.Text || users[i].Password == pass_txt.Text)
+                                        exists = true;
 
-                            //string msg = InsertLogic.AddUser(add_wa, num_table);
-                            db.Users.Add(add_wa);
-                            var num = db.SaveChanges();
+                                }
+                            }
+                            //else
+                            //{
+                            //    db.Users.Add(add_wa);
+                            //    var num = db.SaveChanges();
+                            //}
+                            if (!exists)
+                            {
+                                db.Users.Add(add_wa);
+                                var num = db.SaveChanges();
+                            }
+                            else
+                            {
+                                MessageBox.Show("This Login or Password already exists..\nTry to take another one!", "Already Exists", MessageBoxButton.OK, MessageBoxImage.Warning);
+                                return;
+                            }
                         }
                         catch { }           
 
